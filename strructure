@@ -1,0 +1,11 @@
+trinity-mind/
+├─ trinity_core.py           # core reasoning loop
+├─ api/
+│  ├─ main.py                # FastAPI wrapper
+│  └─ requirements.txt
+├─ docs/
+│  ├─ whitepaper.md          # export to PDF for sharing
+│  ├─ api_reference.md
+│  └─ examples.md
+├─ LICENSE
+└─ README.md
