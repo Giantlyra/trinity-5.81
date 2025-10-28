@@ -20,3 +20,12 @@ uvicorn api.main:app --reload --port 8000
 
 # open the docs
 # http://localhost:8000/docs
+
+## 🛰️ Moonlander Mode (CLI)
+```bash
+# run a single Trinity loop from the terminal
+python trinity_core.py --topic "AI Safety" --goal "roadmap" --constraints "deploy in 6 months"
+
+# emit structured JSON instead of formatted text
+python trinity_core.py --topic "AI Safety" --format json
+```
